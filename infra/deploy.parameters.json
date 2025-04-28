@@ -1,4 +1,26 @@
 {
-  "LOCATION": "__LOCATION__",
-  "RESOURCE_GROUP": "__RESOURCE_GROUP__"
+  "LOCATION": "eastus2",
+  "RESOURCE_GROUP": "telogicalai",
+  "STORAGE_ACCOUNT": "",
+  "APP_SERVICE_PLAN": "",
+  "WEB_APP": "",
+  "APPLICATION_INSIGHTS": "",
+  "GRAPHRAG_API_BASE": "https://telogicalai.cognitiveservices.azure.com/",
+  "GRAPHRAG_API_VERSION": "2023-03-15-preview",
+  "GRAPHRAG_LLM_MODEL": "gpt-4o",
+  "GRAPHRAG_LLM_MODEL_VERSION": "2024-11-20",
+  "GRAPHRAG_LLM_DEPLOYMENT_NAME": "gpt-4o",
+  "GRAPHRAG_LLM_MODEL_QUOTA": 80,
+  "GRAPHRAG_EMBEDDING_MODEL": "text-embedding-ada-002",
+  "GRAPHRAG_EMBEDDING_MODEL_VERSION": "2",
+  "GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME": "text-embedding-ada-002",
+  "GRAPHRAG_EMBEDDING_MODEL_QUOTA": 300,
+  "GRAPHRAG_IMAGE": "graphrag:backend",
+  "CONTAINER_REGISTRY_LOGIN_SERVER": "<container_registry_name>.azurecr.io",
+  "COGNITIVE_SERVICES_AUDIENCE": "https://cognitiveservices.azure.com/.default",
+  "APIM_NAME": "<auto_generated_unique_name>",
+  "APIM_TIER": "Developer",
+  "RESOURCE_BASE_NAME": "",
+  "AISEARCH_ENDPOINT_SUFFIX": "search.windows.net",
+  "AISEARCH_AUDIENCE": "https://search.azure.com/"
 }
